@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  customer_id: 1
+  cab_id: 1
+  source: 1.5
+  destination: 1.5
+  cost: 1.5
+  completed: false
+
+two:
+  customer_id: 1
+  cab_id: 1
+  source: 1.5
+  destination: 1.5
+  cost: 1.5
+  completed: false
