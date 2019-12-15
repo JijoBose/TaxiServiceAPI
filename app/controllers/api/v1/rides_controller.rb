@@ -1,5 +1,5 @@
 class Api::V1::RidesController < ApplicationController
-  before_action :set_ride, only: [:show, :edit, :update, :destroy]
+  before_action :set_ride, only: [:show, :edit, :update]
 
   # GET /api/v1/rides
   def index
