@@ -1,4 +1,5 @@
 class Api::V1::RidesController < ApplicationController
+  skip_before_action :verify_authenticity_token
   before_action :set_ride, only: [:show, :edit, :update]
 
   # GET /api/v1/rides

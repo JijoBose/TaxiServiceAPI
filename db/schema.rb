@@ -14,8 +14,8 @@ ActiveRecord::Schema.define(version: 2019_12_15_131533) do
 
   create_table "cabs", force: :cascade do |t|
     t.string "name"
-    t.float "latitude"
-    t.float "longitude"
+    t.string "latitude"
+    t.string "longitude"
     t.string "color"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -31,8 +31,8 @@ ActiveRecord::Schema.define(version: 2019_12_15_131533) do
   create_table "rides", force: :cascade do |t|
     t.integer "customer_id"
     t.integer "cab_id"
-    t.float "source"
-    t.float "destination"
+    t.string "source"
+    t.string "destination"
     t.float "cost"
     t.boolean "completed", default: false
     t.boolean "boolean", default: false

@@ -35,7 +35,7 @@ class Api::V1::CustomersController < ApplicationController
     if @customer.update(customer_params)
       render json: { success: true, message: "Customer was successfully updated."}
     else
-      render json: @customer.errors, status: :unprocessable_entity }
+      render json: { success: false, message: @customer.errors.messages.flatten.join(" ") }
     end
   end
 

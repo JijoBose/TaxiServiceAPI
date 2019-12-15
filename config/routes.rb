@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :cabs
+      resources :customers
+      resources :rides
     end
   end
 end
