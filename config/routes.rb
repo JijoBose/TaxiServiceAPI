@@ -5,7 +5,11 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :cabs
       resources :customers
-      resources :rides
+      resources :rides do
+        member do
+          post :ride_complete
+        end
+      end
     end
   end
 end
