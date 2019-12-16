@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Taxi service that detects nearest cabs to customer
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version [2.6.5]
 
-* System dependencies
+* Postman collection
+https://www.getpostman.com/collections/165d80203643136dcbf7
 
-* Configuration
+- Customer: CRUD operations
+- Cab: name, color and availability
+- Ride contains source and destination for travel
+- User can select color of the car nearby
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
