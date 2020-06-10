@@ -23,7 +23,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'rabl'
 gem 'oj'
-gem 'geocoder', '~> 1.5', '>= 1.5.2'
+gem 'geocoder', '~> 1.6'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
